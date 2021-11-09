@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "p5-logger",
+  "version": "1.0",
+  "description": "logging addon for p5.js web editor",
+  "icons": {
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://editor.p5js.org/"],
+      "js": ["index.js"]
+    }
+  ],
+  "content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com; object-src 'self'"
+}

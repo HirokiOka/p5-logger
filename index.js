@@ -7,7 +7,7 @@ if (sessionStorage.id === undefined) {
 
 console.log('your ID: ' + sessionStorage.id);
 
-const serverURL = 'https://p5-logger.herokuapp.com/';
+const serverURL = 'https://p5-logger.herokuapp.com/data';
 const buttonClass = 'toolbar__play-button';
 
 async function fetchPost(data) {
